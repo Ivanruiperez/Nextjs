@@ -1,0 +1,42 @@
+.offers_box{
+    justify-content: center;
+    margin-top: 20px;
+}
+.offers_section_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 100vw;
+    background: url("../../public/images/rectangle-5.jpg") no-repeat;
+    background-size: cover;
+    color: #fff
+}
+.offers_title{
+    text-align: center;
+    width: 80%;
+    font-size: 24px;
+    margin-top: 50px;
+}
+.offers_text{
+    text-align: center;
+    width: 90%;
+    font-size: 14px;
+    margin: 15px 0 40px 0;
+}
+.offers_button{
+    width: 280px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    background-color: transparent;
+    color: #fff
+}
+
+@media (min-width: 768px){
+    .offers_box{
+        display: none;
+    }
+}

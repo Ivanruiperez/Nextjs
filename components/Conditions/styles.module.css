@@ -1,0 +1,34 @@
+.conditions_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .conditions_mobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+  }
+  .conditions_mobile img {
+    width: 100%;
+    height: 100%;
+  }
+  .conditions_desktop{
+    display: none;
+    justify-content: center;
+    height: 300px;
+    width: 100vw;
+    margin-top: 175px;
+  }
+  .conditions_desktop img {
+    width: 100%;
+  }
+  @media (min-width: 768px){
+    .conditions_mobile{
+        display: none;
+      }
+      .conditions_desktop{
+        display: flex;
+      }
+  }

@@ -1,0 +1,21 @@
+.header_section{
+    display: flex;
+    margin-right: 10px;
+    cursor: pointer
+  }
+.header_icon{
+    display: flex;
+    width: 40px;
+  }
+.header_phone_number{
+    display: none;
+    align-items: center;
+    margin: 0 8px;
+    color: #545454;
+    cursor: default;
+}
+@media (min-width: 768px){
+    .header_phone_number{
+        display: flex;
+    } 
+}

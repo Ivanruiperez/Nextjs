@@ -1,0 +1,74 @@
+.sell_options_box_desktop{
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    width: 75vw;
+    transform: translate(15%, -400px);
+    z-index: 1;
+}
+.sell_options_steps_desktop{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.sell_options_steps_box_desktop{
+    display: flex;
+    flex: 1;
+    height: 115px;
+    cursor: pointer;
+}
+.sell_options_steps_box_desktop:hover {
+    border-bottom: 5px solid #008bcf
+}
+.sell_options_number_box{
+    display: flex;
+    width: 60px;
+    height: 80px;  
+    padding: 10px 10px;
+}
+.sell_options_number{
+    display: flex;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    background-color:#008bcf;
+    border-radius: 50%;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 4px;
+}
+.sell_options_step_description_desktop{
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+  }
+  .sell_options_step_title_desktop{
+    color: #4a4a4a;
+    font-size: 14px;
+  }
+  .sell_options_step_text_desktop{
+    color:#9b9b9b;
+    font-size: 10px;
+    margin-top: 6px;
+  }
+  .sell_options_img_desktop{
+    width: 100%;
+    height: 480px;
+}
+
+.sell_options_img_desktop img {
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width: 768px){
+    .sell_options_box_desktop{
+        display: flex;
+    }
+}

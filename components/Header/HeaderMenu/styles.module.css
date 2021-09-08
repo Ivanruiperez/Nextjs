@@ -1,0 +1,25 @@
+.header_section_desktop{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer
+  }
+  .menu{
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    margin: 0 5px;
+    height: 30px;
+    cursor: pointer;
+  }
+  .menu a{
+    text-decoration: none
+  }
+  .menu:hover{
+    border-bottom: solid 3px#008bcf;
+  }
+  @media (min-width: 768px){
+    .header_section_desktop{
+        display: flex;
+    } 
+}

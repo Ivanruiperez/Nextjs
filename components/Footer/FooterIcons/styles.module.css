@@ -1,0 +1,12 @@
+.footerIcons_list{
+    display: flex;
+    justify-content: center;
+}
+.footerIcons_list li {
+    margin: 10px 5px;
+}
+@media (min-width: 768px) {
+    .footerIcons_list{
+        display: none;
+    }
+}

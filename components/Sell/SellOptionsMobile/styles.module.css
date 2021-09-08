@@ -1,0 +1,55 @@
+.sell_options_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+  }
+  .sell_options_step{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sell_options_step_box{
+    display: flex;
+  }
+  .sell_options_step_number_box{
+    display: flex;
+    width: 60px;
+    height: 80px;  
+    padding: 10px 10px;
+  }
+  .sell_options_step_number{
+    display: flex;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color:#008bcf;
+    border-radius: 50%;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 4px;
+  }
+  .sell_options_step_description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .sell_options_step_title{
+    color: #4a4a4a;
+    font-size: 18px;
+  }
+  .sell_options_step_text{
+    color:#9b9b9b;
+    font-size: 14px;
+    margin-top: 6px;
+    width: 280px;
+  }
+  @media (min-width: 768px){
+    .sell_options_box{
+        display: none;
+    }
+  }

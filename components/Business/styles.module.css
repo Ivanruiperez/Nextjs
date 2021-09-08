@@ -1,0 +1,32 @@
+.business_box{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.business_title{
+    color:#008bcf;
+    font-size: 34px;
+    margin: 25px 0 10px;
+}
+.business_text{
+    width: 450px;
+    text-align: center;
+    color:#4a4a4a;
+    margin: 10px 0 50px;
+}
+.business_logo{
+    display: flex;
+}
+.business_icons{
+    margin: 0 15px;
+}
+.business_icons img {
+    width: 250px;
+    height: 130px;
+}
+@media (min-width: 768px){
+    .business_box{
+        display: flex;
+    }
+}

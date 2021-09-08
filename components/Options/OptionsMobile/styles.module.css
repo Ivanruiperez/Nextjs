@@ -1,0 +1,35 @@
+.options_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+  }
+  .options_box_icon{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    width: 40%;
+  }
+  .options_box_describe{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 15px;
+  }
+  .options_box_describe_title{
+    color: #008bcf;
+    width: 70%;
+  }
+  .options_box_describe_text{
+    color: #9b9b9b;
+    font-weight: 100;
+    font-size: 12px;
+    width: 85%;
+  }
+
+  @media (min-width: 768px) {
+      .options_box{
+          display: none;
+      }
+  }

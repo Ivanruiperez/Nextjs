@@ -1,0 +1,25 @@
+.header_section{
+    display: flex;
+    margin-right: 10px;
+    cursor: pointer
+  }
+  .group_icon{
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: #fff;
+  }
+  .logo_principal_icon{
+    display: flex;
+  }
+  .logo_principal_icon img{
+    width: 120px;
+  }
+
+
+
+@media (min-width: 768px){
+  .group_icon{
+      display: none;
+  } 
+}

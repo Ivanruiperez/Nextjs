@@ -1,0 +1,35 @@
+.footerContact_box{
+    padding: 10px 0;
+    border-bottom: 1px solid#e5e5e5;
+}
+.footerContact_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerContact_logo {
+    display: none;
+}
+.footerContact_logo img {
+    width: 150px;
+}
+.footerContact_icons_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.footerContact_icons_box span {
+    display: flex;
+    align-items: center;
+    color: #545454;
+}
+
+@media (min-width: 768px) {
+    .footerContact_logo {
+        display: flex;
+    }
+    .footerContact_icons_box{
+        justify-content: flex-end;
+    }
+}
